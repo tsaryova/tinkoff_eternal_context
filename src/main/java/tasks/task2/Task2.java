@@ -34,6 +34,8 @@ public class Task2 {
         System.out.println(k);
     }
 
+
+// Tinkoff status ok
     public static void getResultGood() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
