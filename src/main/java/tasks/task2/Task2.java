@@ -7,8 +7,8 @@ public class Task2 {
     public static void getResult() {
         int k = 0;
         try (Scanner scanner = new Scanner(System.in)) {
-            if (scanner.hasNextInt()) {
-                int n = scanner.nextInt();
+            if (scanner.hasNextLine()) {
+                int n = Integer.parseInt(scanner.nextLine());
                 int startRange = 1;
                 int endRange = 2 * (int)Math.pow(10, 9);
                 int countParts = 1;
