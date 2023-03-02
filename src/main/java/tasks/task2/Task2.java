@@ -3,9 +3,10 @@ package tasks.task2;
 import java.util.Scanner;
 
 //разделить рулет на n число человек
-//частичное решение по тестам тинькофф. PT
+
 public class Task2 {
 
+    //PT
     public static void getResult() {
         int k = 0;
         try (Scanner scanner = new Scanner(System.in)) {
@@ -31,6 +32,18 @@ public class Task2 {
             }
         }
         System.out.println(k);
+    }
+
+    public static void getResultGood() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+
+        int numberOfCuts  = 0;
+        for(int piecesInCutPiece  = n; piecesInCutPiece != 1; piecesInCutPiece = piecesInCutPiece / 2 + piecesInCutPiece % 2)
+            numberOfCuts++;
+
+        //Вывод данных
+        System.out.println(numberOfCuts);
     }
 
 }
