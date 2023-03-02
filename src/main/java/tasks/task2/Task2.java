@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 //разделить рулет на n число человек
 public class Task2 {
+
     public static void getResult() {
         int k = 0;
         try (Scanner scanner = new Scanner(System.in)) {
@@ -30,4 +31,5 @@ public class Task2 {
         }
         System.out.println(k);
     }
+
 }
