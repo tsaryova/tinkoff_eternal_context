@@ -3,6 +3,7 @@ package tasks.task2;
 import java.util.Scanner;
 
 //разделить рулет на n число человек
+//частичное решение по тестам тинькофф. PT
 public class Task2 {
 
     public static void getResult() {
